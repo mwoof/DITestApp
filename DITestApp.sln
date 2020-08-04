@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DITestApp", "DITestApp\DITestApp.csproj", "{C4877122-6F75-4365-ADD9-5E8444B4E603}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4877122-6F75-4365-ADD9-5E8444B4E603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4877122-6F75-4365-ADD9-5E8444B4E603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4877122-6F75-4365-ADD9-5E8444B4E603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4877122-6F75-4365-ADD9-5E8444B4E603}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AACDBF42-05A8-4F73-9EB6-6D380C9F143D}
+	EndGlobalSection
+EndGlobal
