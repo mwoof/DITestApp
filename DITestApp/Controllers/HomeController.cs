@@ -15,6 +15,10 @@ namespace DITestApp.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
+           ///string connString = Startup.StaticConfig.GetSection("Shopify")["Shopify_API_Key"];
+           ///System.Diagnostics.Debug.WriteLine("WITHIN PROGRAM------------");
+           ///System.Diagnostics.Debug.WriteLine(connString);
+
             _logger = logger;
         }
 

@@ -26,8 +26,4 @@
     <PackageReference Include="ShopifySharp" Version="5.4.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Engines\" />
-  </ItemGroup>
-
 </Project>

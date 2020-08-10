@@ -13,11 +13,6 @@ namespace DITestApp
     {
         public static void Main(string[] args)
         {
-            //System.Diagnostics.Debug.WriteLine(System.Configuration["Shopify"]);
-            string connString = Startup.StaticConfig.GetConnectionString("DefaultConnection");
-            //.GetSection("Shopify")["Shopify_API_Key"];
-            System.Diagnostics.Debug.WriteLine("WITHIN PROGRAM------------");
-            System.Diagnostics.Debug.WriteLine(connString);
 
             CreateHostBuilder(args).Build().Run();
         }
