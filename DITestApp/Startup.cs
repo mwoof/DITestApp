@@ -20,9 +20,11 @@ namespace DITestApp
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            StaticConfig = configuration;
         }
 
         public IConfiguration Configuration { get; }
+        public static IConfiguration StaticConfig { get; private set; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -39,6 +41,14 @@ namespace DITestApp
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            //Debug.WriteLine(Configuration["Shopify"]);
+
+
+            //Movie m = JsonConvert.DeserializeObject<Movie>(Configuration["Shopify"]);
+
+            System.Diagnostics.Debug.WriteLine("My debug string here------------");
+            System.Diagnostics.Debug.WriteLine(Configuration["Shopify"]);
+            System.Diagnostics.Debug.WriteLine(Configuration.GetSection("Shopify")["Shopify_API_Key"]);
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
