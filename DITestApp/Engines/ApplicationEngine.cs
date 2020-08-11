@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 using DITestApp.Models;
 
 
-namespace DITestApp.AuntieDot
+namespace DITestApp
 
 {
     /// <summary>

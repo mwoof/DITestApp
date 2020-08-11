@@ -46,9 +46,11 @@ namespace DITestApp
 
             //Movie m = JsonConvert.DeserializeObject<Movie>(Configuration["Shopify"]);
 
-            System.Diagnostics.Debug.WriteLine("My debug string here------------");
-            System.Diagnostics.Debug.WriteLine(Configuration["Shopify"]);
-            System.Diagnostics.Debug.WriteLine(Configuration.GetSection("Shopify")["Shopify_API_Key"]);
+           // System.Diagnostics.Debug.WriteLine("My debug string here------------");
+           // System.Diagnostics.Debug.WriteLine(Configuration["Shopify"]);
+            //System.Diagnostics.Debug.WriteLine(Configuration.GetSection("Shopify")["Shopify_API_Key"]);
+            
+            
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
