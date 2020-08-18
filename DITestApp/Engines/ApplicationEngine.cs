@@ -22,3 +22,4 @@ namespace DITestApp
             Startup.StaticConfig.GetSection("Shopify")["Shopify_API_Key"];
     }
 }
+ 
