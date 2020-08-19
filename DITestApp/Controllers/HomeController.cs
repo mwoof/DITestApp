@@ -24,6 +24,8 @@ namespace DITestApp.Controllers
 
         public IActionResult Index()
         {
+
+            ViewBag.testText = "THIS IS A TEST";
             return View();
         }
 
